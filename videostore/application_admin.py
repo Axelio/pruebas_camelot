@@ -15,18 +15,14 @@ class MyApplicationAdmin(ApplicationAdmin):
     def get_sections(self):
         from camelot.model.memento import Memento
         from camelot.model.i18n import Translation
-        from videostore.model import Movie
+        from videostore.model import Movie, Director
         return [ Section( _('Movie'),
                          self,
                          Icon('tango/22x22/apps/system-users.png'),
-                         items = [Movie] ),
+                         items = [Movie, Director] ),
                  Section( _('Configuration'),
                          self,
                          Icon('tango/22x22/categories/preferences-system.png'),
                          items = [Memento, Translation] )
-                 Section( 'Movies',
-                          self,
-                          Icon( 'tango/22x22/mimetypes/x-office-presentation.png' ),
-                          items = [ Movie, Director ])
                ]
 
