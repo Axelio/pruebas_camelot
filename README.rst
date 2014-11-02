@@ -1,5 +1,5 @@
 Installation
-------------
+============
 
 Iniciando un entorno virtual con python y el sistema de archivos del equipo, es necesario contar con pyqt4::
 
@@ -15,8 +15,13 @@ Instalamos los requerimientos::
 $ pip install -r requirements.txt
 
 Iniciando el proyecto
----------------------
+=====================
 
 ``$ python -m camelot.bin.camelot_admin``
 
 Eso desplegará una ventana para asignar valores de configuración a nuestra aplicación
+
+Creando modelos
+===============
+
+__ http://python-camelot.s3.amazonaws.com/gpl/release/pyqt/doc/tutorial/videostore.html#creating-the-movie-model
