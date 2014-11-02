@@ -7,9 +7,11 @@ $ virtualenv virtualenv --system-site-packages
 $ . virtualenv/bin/activate
 
 Instalamos pyqt4::
+
 # aptitude install python-dev python-qt4
 
 Instalamos los requerimientos::
+
 $ pip install -r requirements.txt
 
 Iniciando el proyecto
