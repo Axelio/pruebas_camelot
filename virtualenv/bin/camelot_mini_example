@@ -1,0 +1,10 @@
+#!/home/f0ry/public_html/camelot/virtualenv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'Camelot==12.06.29','console_scripts','camelot_mini_example'
+__requires__ = 'Camelot==12.06.29'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('Camelot==12.06.29', 'console_scripts', 'camelot_mini_example')()
+    )
