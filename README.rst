@@ -24,4 +24,4 @@ Eso desplegará una ventana para asignar valores de configuración a nuestra apl
 Creando modelos
 ===============
 
-__ http://python-camelot.s3.amazonaws.com/gpl/release/pyqt/doc/tutorial/videostore.html#creating-the-movie-model
+http://python-camelot.s3.amazonaws.com/gpl/release/pyqt/doc/tutorial/videostore.html#creating-the-movie-model
